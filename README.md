@@ -4,9 +4,7 @@
   
 </div>
 
-<!-- # Introduction -->
-
-<!-- This is the offical [Pytorch](https://pytorch.org/) implementation of our paper: -->
+Offical [Pytorch](https://pytorch.org/) implementation of our paper:
 <h3 align="center">AlphaChimp: Tracking and Behavior Recognition of Chimpanzees</h3>
 
 <h4 align="center" style="text-decoration: none;">
@@ -29,7 +27,7 @@
   <a href="https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm", target="_blank">Yizhou Wang</a>
 </h4>
 <h4 align="center">
-  <a href="https://sites.google.com/view/alphachimp/home", target="_blank">[project page]</a> /
+  <a href="https://sites.google.com/view/alphachimp/home", target="_blank">[Project page]</a> /
   <a href="https://shirleymaxx.github.io/ChimpACT/", target="_blank">[ChimpACT dataset]</a>
 </h4>
 
