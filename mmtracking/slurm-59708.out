@@ -1,0 +1,158 @@
+/ceph/home/yixin01/anaconda3/envs/alphachimp_track/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+/ceph/home/yixin01/xiaoxuan/code/AlphaChimp_private/mmtracking/mmtrack/core/utils/misc.py:26: UserWarning: Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+/ceph/home/yixin01/xiaoxuan/code/AlphaChimp_private/mmtracking/mmtrack/core/utils/misc.py:36: UserWarning: Setting MKL_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed.
+  warnings.warn(
+loading annotations into memory...
+Done (t=0.65s)
+creating index...
+index created!
+Evaluate CLEAR MOT results.
+
+Eval Config:
+USE_PARALLEL         : False                         
+NUM_PARALLEL_CORES   : 8                             
+BREAK_ON_ERROR       : True                          
+RETURN_ON_ERROR      : False                         
+LOG_ON_ERROR         : /ceph/home/yixin01/xiaoxuan/code/AlphaChimp_private/mmtracking/TrackEval/error_log.txt
+PRINT_RESULTS        : True                          
+PRINT_ONLY_COMBINED  : False                         
+PRINT_CONFIG         : True                          
+TIME_PROGRESS        : True                          
+DISPLAY_LESS_PROGRESS : True                          
+OUTPUT_SUMMARY       : True                          
+OUTPUT_EMPTY_CLASSES : True                          
+OUTPUT_DETAILED      : True                          
+PLOT_CURVES          : True                          
+DDDDDDDD: {'GT_FOLDER': '/tmp/tmp0hz5g392', 'TRACKERS_FOLDER': '/tmp/tmpweyld0rm', 'OUTPUT_FOLDER': None, 'TRACKERS_TO_EVAL': ['track'], 'CLASSES_TO_EVAL': ['chimpanzee'], 'BENCHMARK': 'LeipzigChimp', 'SPLIT_TO_EVAL': 'train', 'INPUT_AS_ZIP': False, 'PRINT_CONFIG': True, 'DO_PREPROC': True, 'TRACKER_SUB_FOLDER': '', 'OUTPUT_SUB_FOLDER': '', 'TRACKER_DISPLAY_NAMES': None, 'SEQMAP_FOLDER': None, 'SEQMAP_FILE': '/tmp/tmpweyld0rm/videoseq.txt', 'SEQ_INFO': None, 'GT_LOC_FORMAT': '{gt_folder}/{seq}/gt/gt.txt', 'SKIP_SPLIT_FOL': True}
+
+MotChallenge2DBox Config:
+GT_FOLDER            : /tmp/tmp0hz5g392              
+TRACKERS_FOLDER      : /tmp/tmpweyld0rm              
+OUTPUT_FOLDER        : None                          
+TRACKERS_TO_EVAL     : ['track']                     
+CLASSES_TO_EVAL      : ['chimpanzee']                
+BENCHMARK            : LeipzigChimp                  
+SPLIT_TO_EVAL        : train                         
+INPUT_AS_ZIP         : False                         
+PRINT_CONFIG         : True                          
+DO_PREPROC           : True                          
+TRACKER_SUB_FOLDER   :                               
+OUTPUT_SUB_FOLDER    :                               
+TRACKER_DISPLAY_NAMES : None                          
+SEQMAP_FOLDER        : None                          
+SEQMAP_FILE          : /tmp/tmpweyld0rm/videoseq.txt 
+SEQ_INFO             : None                          
+GT_LOC_FORMAT        : {gt_folder}/{seq}/gt/gt.txt   
+SKIP_SPLIT_FOL       : True                          
+
+Evaluating 1 tracker(s) on 19 sequence(s) for 1 class(es) on MotChallenge2DBox dataset using the following metrics: HOTA, Count
+
+
+Evaluating track
+
+1 eval_sequence(Azibo_ObsChimp_2015_11_25_d_clip_1000_2000, track)       0.5029 sec
+2 eval_sequence(Azibo_ObsChimp_2015_11_26_a_clip_0_1000, track)          0.5213 sec
+3 eval_sequence(Azibo_ObsChimp_2015_11_26_a_clip_2000_3000, track)       0.5382 sec
+4 eval_sequence(Azibo_ObsChimp_2016_08_02_c_clip_33000_34000, track)     0.4860 sec
+5 eval_sequence(Azibo_ObsChimp_2016_08_15_b_clip_2000_3000, track)       0.3391 sec
+6 eval_sequence(Azibo_ObsChimp_2016_10_27_c_clip_0_1000, track)          0.3625 sec
+7 eval_sequence(Azibo_ObsChimp_2017_02_27_a_clip_14000_15000, track)     0.4732 sec
+8 eval_sequence(Azibo_ObsChimp_2017_06_22_c_clip_44000_45000, track)     0.5007 sec
+9 eval_sequence(Azibo_ObsChimp_2017_06_22_c_clip_68000_69000, track)     0.5044 sec
+10 eval_sequence(Azibo_ObsChimp_2017_11_10_clip_6000_7000, track)         0.4917 sec
+11 eval_sequence(Azibo_ObsChimp_2018_07_06_d_clip_0_696, track)           0.3342 sec
+12 eval_sequence(Azibo_ObsChimp_2018_07_11_c_clip_16000_17000, track)     0.4616 sec
+13 eval_sequence(Azibo_ObsChimp_2018_07_11_c_clip_19000_20000, track)     0.4500 sec
+14 eval_sequence(Azibo_ObsChimp_2018_07_11_c_clip_2000_3000, track)       0.4415 sec
+15 eval_sequence(Azibo_ObsChimp_2018_07_11_c_clip_8000_9000, track)       0.6640 sec
+16 eval_sequence(Azibo_ObsChimp_2018_08_06_a_clip_6000_7000, track)       0.2064 sec
+17 eval_sequence(Azibo_ObsChimp_2018_08_06_a_clip_8000_9000, track)       0.4067 sec
+18 eval_sequence(Azibo_ObsNatascha_2018_06_29_a_clip_14000_15000, track)  0.4836 sec
+19 eval_sequence(Azibo_ObsNatascha_2018_06_29_a_clip_17000_17712, track)  0.3475 sec
+
+All sequences for track finished in 8.53 seconds
+
+HOTA: track-chimpanzee             HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+Azibo_ObsChimp_2015_11_25_d_clip_1000_200046.908    50.224    44.324    53.096    74.434    46.515    75.659    78.954    48.406    61.545    73.199    45.05     
+Azibo_ObsChimp_2015_11_26_a_clip_0_100051.903    54.417    50.604    58.237    80.075    57.809    75.745    84.3      53.986    61.558    80.947    49.829    
+Azibo_ObsChimp_2015_11_26_a_clip_2000_300085.365    81.807    91.793    86.196    87.051    93.453    95.71     87.697    88.236    97.373    85.755    83.502    
+Azibo_ObsChimp_2016_08_02_c_clip_33000_3400057.681    46.538    71.774    47.901    79.285    74.342    83.431    81.158    58.601    72.752    78.124    56.837    
+Azibo_ObsChimp_2016_08_15_b_clip_2000_30008.151     20.482    3.2931    33.108    32.175    3.3811    92.184    77.016    10.386    11.401    68.13     7.7674    
+Azibo_ObsChimp_2016_10_27_c_clip_0_100025.578    42.108    15.785    45.962    78.514    16.381    87.777    87.091    26.815    29.397    82.989    24.396    
+Azibo_ObsChimp_2017_02_27_a_clip_14000_1500044.479    39.316    51.146    47.387    68.04     53.956    91.13     91.33     48.94     47.353    88.981    42.135    
+Azibo_ObsChimp_2017_06_22_c_clip_44000_4500036.832    44.645    30.931    48.61     79.324    38.849    72.535    86.597    38.596    42.606    82.934    35.335    
+Azibo_ObsChimp_2017_06_22_c_clip_68000_6900034.482    41.693    28.72     43.032    88.307    32.907    77.335    89.841    35.087    37.935    88.443    33.551    
+Azibo_ObsChimp_2017_11_10_clip_6000_700028.931    40.124    21.095    43.66     70.238    22.548    65.748    79.052    30.283    40.188    72.082    28.968    
+Azibo_ObsChimp_2018_07_06_d_clip_0_69651.099    37.876    71.756    42.284    70.071    73.459    90.822    82.066    54.418    64.889    73.402    47.63     
+Azibo_ObsChimp_2018_07_11_c_clip_16000_1700058.317    57.853    58.784    67.674    66.542    67.674    67.741    79.048    62.819    99.013    66.851    66.191    
+Azibo_ObsChimp_2018_07_11_c_clip_19000_2000018.764    26.542    13.376    29.084    64.615    13.775    79.994    78.552    19.681    25.583    71.398    18.266    
+Azibo_ObsChimp_2018_07_11_c_clip_2000_300021.965    30.135    16.297    33.181    64.769    18.106    74.143    77.871    23.102    29.907    70.798    21.174    
+Azibo_ObsChimp_2018_07_11_c_clip_8000_900067.691    55.637    83.231    58.418    81.666    87.142    87.38     83.68     69.597    84.284    80.205    67.6      
+Azibo_ObsChimp_2018_08_06_a_clip_6000_70005.1699    5.7548    4.6641    5.8198    67.368    4.7019    72.893    75.323    5.2012    7.3883    66.836    4.9381    
+Azibo_ObsChimp_2018_08_06_a_clip_8000_900025.744    33.957    20.033    37.542    68.073    20.666    83.447    80.649    27.191    32.409    75.919    24.605    
+Azibo_ObsNatascha_2018_06_29_a_clip_14000_1500039.829    28.313    59.52     31.116    50.387    62.57     62.677    68.298    42.29     72.991    50.33     36.736    
+Azibo_ObsNatascha_2018_06_29_a_clip_17000_1771254.174    43.608    67.884    45.262    68.202    69.761    71.619    74.308    55.312    80.538    67.366    54.255    
+COMBINED                           48.162    42.883    56.214    47.505    73.139    59.557    85.43     82.812    51.008    59.749    77.138    46.089    
+
+Count: track-chimpanzee            Dets      GT_Dets   IDs       GT_IDs    
+Azibo_ObsChimp_2015_11_25_d_clip_1000_20002140      3000      19        3         
+Azibo_ObsChimp_2015_11_26_a_clip_0_10003360      4620      32        6         
+Azibo_ObsChimp_2015_11_26_a_clip_2000_30005040      5090      24        6         
+Azibo_ObsChimp_2016_08_02_c_clip_33000_340001885      3120      50        4         
+Azibo_ObsChimp_2016_08_15_b_clip_2000_30001739      1690      1511      5         
+Azibo_ObsChimp_2016_10_27_c_clip_0_10001323      2260      443       4         
+Azibo_ObsChimp_2017_02_27_a_clip_14000_150002556      3670      168       8         
+Azibo_ObsChimp_2017_06_22_c_clip_44000_450002010      3280      51        5         
+Azibo_ObsChimp_2017_06_22_c_clip_68000_690001881      3860      48        6         
+Azibo_ObsChimp_2017_11_10_clip_6000_70002474      3980      88        4         
+Azibo_ObsChimp_2018_07_06_d_clip_0_6961260      2088      108       3         
+Azibo_ObsChimp_2018_07_11_c_clip_16000_170001017      1000      2         1         
+Azibo_ObsChimp_2018_07_11_c_clip_19000_200001886      4190      648       6         
+Azibo_ObsChimp_2018_07_11_c_clip_2000_30001542      3010      307       6         
+Azibo_ObsChimp_2018_07_11_c_clip_8000_90004013      5610      15        6         
+Azibo_ObsChimp_2018_08_06_a_clip_6000_7000165       1910      22        4         
+Azibo_ObsChimp_2018_08_06_a_clip_8000_90001103      2000      423       2         
+Azibo_ObsNatascha_2018_06_29_a_clip_14000_150002007      3250      9         4         
+Azibo_ObsNatascha_2018_06_29_a_clip_17000_177121391      2096      2         3         
+COMBINED                           38792     59724     3970      86        
+                                                 IDF1   IDP   IDR  Rcll  Prcn GT MT PT ML   FP    FN  IDs    FM   MOTA  MOTP IDt  IDa IDm      HOTA
+Azibo_ObsChimp_2015_11_25_d_clip_1000_2000      51.1% 61.3% 43.7% 66.5% 93.2%  3  2  0  1  146  1006    3     7  61.5% 0.235   1    3   1  0.469083
+Azibo_ObsChimp_2015_11_26_a_clip_0_1000         57.2% 68.0% 49.4% 69.8% 95.9%  6  2  3  1  137  1397   27    61  66.2% 0.184   4   20   0  0.519029
+Azibo_ObsChimp_2015_11_26_a_clip_2000_3000      96.9% 97.4% 96.4% 97.1% 98.1%  6  5  1  0   97   147    2    34  95.2% 0.137   0    2   0  0.853655
+Azibo_ObsChimp_2016_08_02_c_clip_33000_34000    72.0% 95.6% 57.8% 54.0% 89.4%  4  1  1  2  200  1435   29    33  46.7% 0.224   2   27   0  0.576815
+Azibo_ObsChimp_2016_08_15_b_clip_2000_3000      10.3% 10.1% 10.4% 41.5% 40.4%  5  0  4  1 1037   988  498   504 -49.3% 0.268   2  496   0  0.081510
+Azibo_ObsChimp_2016_10_27_c_clip_0_1000         32.2% 43.5% 25.5% 51.7% 88.4%  4  0  3  1  154  1091  310   313  31.2% 0.144   3  308   1  0.255779
+Azibo_ObsChimp_2017_02_27_a_clip_14000_15000    50.6% 61.6% 42.9% 50.6% 72.6%  8  2  2  4  700  1814   42    42  30.4% 0.092   4   40   2  0.444792
+Azibo_ObsChimp_2017_06_22_c_clip_44000_45000    43.7% 57.5% 35.2% 56.2% 91.8%  5  1  3  1  165  1435   31    45  50.3% 0.162   5   28   2  0.368321
+Azibo_ObsChimp_2017_06_22_c_clip_68000_69000    44.3% 67.6% 32.9% 47.1% 96.7%  6  0  5  1   63  2042   26    32  44.8% 0.110   1   25   0  0.344824
+Azibo_ObsChimp_2017_11_10_clip_6000_7000        38.3% 49.9% 31.0% 56.9% 91.6%  4  1  3  0  208  1714   55    71  50.3% 0.259   6   48   0  0.289310
+Azibo_ObsChimp_2018_07_06_d_clip_0_696          56.1% 74.5% 45.0% 47.7% 79.1%  3  1  1  1  263  1091   58    69  32.4% 0.205   0   58   0  0.510986
+Azibo_ObsChimp_2018_07_11_c_clip_16000_17000    65.4% 64.9% 66.0% 67.4% 66.3%  1  0  1  0  343   326    1    22  33.0% 0.200   0    1   0  0.583166
+Azibo_ObsChimp_2018_07_11_c_clip_19000_20000    19.0% 30.5% 13.7% 35.8% 79.6%  6  0  2  4  384  2688  371   392  17.8% 0.243   5  366   0  0.187636
+Azibo_ObsChimp_2018_07_11_c_clip_2000_3000      34.2% 50.5% 25.9% 41.5% 81.1%  6  1  5  0  292  1760  139   165  27.2% 0.262   5  134   0  0.219648
+Azibo_ObsChimp_2018_07_11_c_clip_8000_9000      81.8% 98.1% 70.2% 70.4% 98.4%  6  4  0  2   66  1663    7    25  69.1% 0.193   1    6   0  0.676907
+Azibo_ObsChimp_2018_08_06_a_clip_6000_7000       6.5% 40.6%  3.5%  7.5% 86.7%  4  0  0  4   22  1767   14    21   5.6% 0.289   0   14   0  0.051699
+Azibo_ObsChimp_2018_08_06_a_clip_8000_9000      41.3% 58.1% 32.0% 46.7% 84.6%  2  0  2  0  170  1067  279   281  24.2% 0.223   0  279   0  0.257435
+Azibo_ObsNatascha_2018_06_29_a_clip_14000_15000 38.0% 49.8% 30.8% 30.8% 49.8%  4  1  0  3 1007  2250    0     0  -0.2% 0.335   0    0   0  0.398285
+Azibo_ObsNatascha_2018_06_29_a_clip_17000_17712 77.1% 96.7% 64.2% 64.3% 96.8%  3  2  0  1   44   749    2    11  62.1% 0.316   1    0   0  0.541740
+OVERALL                                         53.3% 67.6% 43.9% 55.7% 85.8% 86 23 36 27 5498 26430 1894  2128  43.4% 0.196  40 1855   6  0.481619
+
++------------+-------+--------+--------+-------+
+| class      | gts   | dets   | recall | ap    |
++------------+-------+--------+--------+-------+
+| chimpanzee | 59944 | 115420 | 0.836  | 0.752 |
++------------+-------+--------+--------+-------+
+| mAP        |       |        |        | 0.752 |
++------------+-------+--------+--------+-------+
+{'IDF1': 0.533, 'IDP': 0.676, 'IDR': 0.439, 'Rcll': 0.557, 'Prcn': 0.858, 'GT': 86, 'MT': 23, 'PT': 36, 'ML': 27, 'FP': 5498, 'FN': 26430, 'IDs': 1894, 'FM': 2128, 'MOTA': 0.434, 'MOTP': 0.196, 'IDt': 40, 'IDa': 1855, 'IDm': 6, 'HOTA': 0.482, 'mAP': 0.752}
+/ceph/home/yixin01/anaconda3/envs/alphachimp_track/lib/python3.8/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torch.distributed.run.
+Note that --use_env is set by default in torch.distributed.run.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(

@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: mmtrack
+Version: 0.14.0
+Summary: OpenMMLab Unified Video Perception Platform
+Home-page: https://github.com/open-mmlab/mmtracking
+Author: MMTracking Contributors
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,object tracking,video object detection
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: attributee
+Requires-Dist: dotty_dict
+Requires-Dist: einops
+Requires-Dist: lap
+Requires-Dist: matplotlib
+Requires-Dist: mmcls<1.0.0,>=0.16.0
+Requires-Dist: motmetrics
+Requires-Dist: packaging
+Requires-Dist: pandas<=1.3.5
+Requires-Dist: pycocotools
+Requires-Dist: scipy<=1.7.3
+Requires-Dist: seaborn
+Requires-Dist: terminaltables
+Requires-Dist: tqdm
+Provides-Extra: all
+Requires-Dist: cython; extra == "all"
+Requires-Dist: numpy; extra == "all"
+Requires-Dist: attributee; extra == "all"
+Requires-Dist: dotty_dict; extra == "all"
+Requires-Dist: einops; extra == "all"
+Requires-Dist: lap; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: mmcls<1.0.0,>=0.16.0; extra == "all"
+Requires-Dist: motmetrics; extra == "all"
+Requires-Dist: packaging; extra == "all"
+Requires-Dist: pandas<=1.3.5; extra == "all"
+Requires-Dist: pycocotools; extra == "all"
+Requires-Dist: scipy<=1.7.3; extra == "all"
+Requires-Dist: seaborn; extra == "all"
+Requires-Dist: terminaltables; extra == "all"
+Requires-Dist: tqdm; extra == "all"
+Requires-Dist: asynctest; extra == "all"
+Requires-Dist: codecov; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: interrogate; extra == "all"
+Requires-Dist: isort==4.3.21; extra == "all"
+Requires-Dist: kwarray; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: ubelt; extra == "all"
+Requires-Dist: xdoctest>=0.10.0; extra == "all"
+Requires-Dist: yapf; extra == "all"
+Requires-Dist: absl-py==2.1.0; extra == "all"
+Requires-Dist: addict==2.4.0; extra == "all"
+Requires-Dist: aliyun-python-sdk-core==2.14.0; extra == "all"
+Requires-Dist: aliyun-python-sdk-kms==2.16.2; extra == "all"
+Requires-Dist: asttokens==2.4.1; extra == "all"
+Requires-Dist: attributee==0.1.8; extra == "all"
+Requires-Dist: backcall==0.2.0; extra == "all"
+Requires-Dist: cachetools==5.3.2; extra == "all"
+Requires-Dist: certifi==2023.11.17; extra == "all"
+Requires-Dist: cffi==1.16.0; extra == "all"
+Requires-Dist: charset-normalizer==3.3.2; extra == "all"
+Requires-Dist: chumpy==0.70; extra == "all"
+Requires-Dist: click==8.1.7; extra == "all"
+Requires-Dist: colorama==0.4.6; extra == "all"
+Requires-Dist: communities==3.0.0; extra == "all"
+Requires-Dist: contourpy==1.1.1; extra == "all"
+Requires-Dist: crcmod==1.7; extra == "all"
+Requires-Dist: cryptography==42.0.1; extra == "all"
+Requires-Dist: cycler==0.12.1; extra == "all"
+Requires-Dist: Cython==3.0.8; extra == "all"
+Requires-Dist: decorator==5.1.1; extra == "all"
+Requires-Dist: decord==0.6.0; extra == "all"
+Requires-Dist: dotty-dict==1.3.1; extra == "all"
+Requires-Dist: einops==0.7.0; extra == "all"
+Requires-Dist: executing==2.0.1; extra == "all"
+Requires-Dist: fonttools==4.47.2; extra == "all"
+Requires-Dist: future==0.18.3; extra == "all"
+Requires-Dist: google-auth==2.27.0; extra == "all"
+Requires-Dist: google-auth-oauthlib==1.0.0; extra == "all"
+Requires-Dist: grpcio==1.60.0; extra == "all"
+Requires-Dist: idna==3.6; extra == "all"
+Requires-Dist: importlib-metadata==7.0.1; extra == "all"
+Requires-Dist: importlib-resources==6.1.1; extra == "all"
+Requires-Dist: ipdb==0.13.13; extra == "all"
+Requires-Dist: ipython==8.12.3; extra == "all"
+Requires-Dist: jedi==0.19.1; extra == "all"
+Requires-Dist: jmespath==0.10.0; extra == "all"
+Requires-Dist: json-tricks==3.17.3; extra == "all"
+Requires-Dist: kiwisolver==1.4.5; extra == "all"
+Requires-Dist: lap==0.4.0; extra == "all"
+Requires-Dist: Markdown==3.5.2; extra == "all"
+Requires-Dist: markdown-it-py==3.0.0; extra == "all"
+Requires-Dist: MarkupSafe==2.1.4; extra == "all"
+Requires-Dist: matplotlib==3.7.4; extra == "all"
+Requires-Dist: matplotlib-inline==0.1.6; extra == "all"
+Requires-Dist: mdurl==0.1.2; extra == "all"
+Requires-Dist: mmaction==0.5.0; extra == "all"
+Requires-Dist: mmcls==0.25.0; extra == "all"
+Requires-Dist: mmdet==2.28.0; extra == "all"
+Requires-Dist: mmengine==0.10.3; extra == "all"
+Requires-Dist: model-index==0.1.11; extra == "all"
+Requires-Dist: motmetrics==1.4.0; extra == "all"
+Requires-Dist: munkres==1.1.4; extra == "all"
+Requires-Dist: networkx==3.1; extra == "all"
+Requires-Dist: numpy==1.22.4; extra == "all"
+Requires-Dist: oauthlib==3.2.2; extra == "all"
+Requires-Dist: opencv-contrib-python==4.9.0.80; extra == "all"
+Requires-Dist: opencv-python==4.9.0.80; extra == "all"
+Requires-Dist: opendatalab==0.0.10; extra == "all"
+Requires-Dist: openmim==0.3.9; extra == "all"
+Requires-Dist: openxlab==0.0.34; extra == "all"
+Requires-Dist: ordered-set==4.1.0; extra == "all"
+Requires-Dist: oss2==2.17.0; extra == "all"
+Requires-Dist: packaging==23.2; extra == "all"
+Requires-Dist: pandas==1.3.5; extra == "all"
+Requires-Dist: parso==0.8.3; extra == "all"
+Requires-Dist: pexpect==4.9.0; extra == "all"
+Requires-Dist: pickleshare==0.7.5; extra == "all"
+Requires-Dist: Pillow==6.2.2; extra == "all"
+Requires-Dist: platformdirs==4.1.0; extra == "all"
+Requires-Dist: prompt-toolkit==3.0.43; extra == "all"
+Requires-Dist: protobuf==4.25.2; extra == "all"
+Requires-Dist: psutil==5.9.8; extra == "all"
+Requires-Dist: ptyprocess==0.7.0; extra == "all"
+Requires-Dist: pure-eval==0.2.2; extra == "all"
+Requires-Dist: pyasn1==0.5.1; extra == "all"
+Requires-Dist: pyasn1-modules==0.3.0; extra == "all"
+Requires-Dist: pycocotools==2.0.7; extra == "all"
+Requires-Dist: pycparser==2.21; extra == "all"
+Requires-Dist: pycryptodome==3.20.0; extra == "all"
+Requires-Dist: Pygments==2.17.2; extra == "all"
+Requires-Dist: pyparsing==3.1.1; extra == "all"
+Requires-Dist: python-dateutil==2.8.2; extra == "all"
+Requires-Dist: pytz==2023.3.post1; extra == "all"
+Requires-Dist: PyYAML==6.0.1; extra == "all"
+Requires-Dist: requests==2.28.2; extra == "all"
+Requires-Dist: requests-oauthlib==1.3.1; extra == "all"
+Requires-Dist: rich==13.4.2; extra == "all"
+Requires-Dist: rsa==4.9; extra == "all"
+Requires-Dist: scipy==1.7.3; extra == "all"
+Requires-Dist: seaborn==0.13.2; extra == "all"
+Requires-Dist: shapely==2.0.2; extra == "all"
+Requires-Dist: six==1.16.0; extra == "all"
+Requires-Dist: stack-data==0.6.3; extra == "all"
+Requires-Dist: tabulate==0.9.0; extra == "all"
+Requires-Dist: tensorboard==2.14.0; extra == "all"
+Requires-Dist: tensorboard-data-server==0.7.2; extra == "all"
+Requires-Dist: termcolor==2.4.0; extra == "all"
+Requires-Dist: terminaltables==3.1.10; extra == "all"
+Requires-Dist: tomli==2.0.1; extra == "all"
+Requires-Dist: tqdm==4.65.2; extra == "all"
+Requires-Dist: traitlets==5.14.1; extra == "all"
+Requires-Dist: typing_extensions==4.9.0; extra == "all"
+Requires-Dist: urllib3==1.26.18; extra == "all"
+Requires-Dist: wcwidth==0.2.13; extra == "all"
+Requires-Dist: Werkzeug==3.0.1; extra == "all"
+Requires-Dist: xmltodict==0.13.0; extra == "all"
+Requires-Dist: xtcocotools==1.14.3; extra == "all"
+Requires-Dist: yapf==0.40.2; extra == "all"
+Requires-Dist: zipp==3.17.0; extra == "all"
+Provides-Extra: tests
+Requires-Dist: asynctest; extra == "tests"
+Requires-Dist: codecov; extra == "tests"
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: interrogate; extra == "tests"
+Requires-Dist: isort==4.3.21; extra == "tests"
+Requires-Dist: kwarray; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: ubelt; extra == "tests"
+Requires-Dist: xdoctest>=0.10.0; extra == "tests"
+Requires-Dist: yapf; extra == "tests"
+Provides-Extra: build
+Requires-Dist: cython; extra == "build"
+Requires-Dist: numpy; extra == "build"
+Provides-Extra: mim
+Requires-Dist: mmcls<1.0.0,>=0.16.0; extra == "mim"
+Requires-Dist: mmcv-full<1.7.0,>=1.6.1; extra == "mim"
+Requires-Dist: mmdet<3.0.0,>=2.19.1; extra == "mim"
