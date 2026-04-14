@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 align="center">AlphaChimp: Tracking and Behavior Recognition of Chimpanzees</h1>
+  <h1 align="center">AlphaChimp: Tracking and Behavior Recognition of Chimpanzees  <br> IJCV 2026</h1>
   
 </div>
 
@@ -158,11 +158,12 @@ python -m torch.distributed.launch --nnodes=1 --node_rank=0 --master_addr=127.0.
 
 # Citation
 ```bibtex
-@article{ma2024alphachimp,
-    title={AlphaChimp: Tracking and Behavior Recognition of Chimpanzees},
-    author={Ma, Xiaoxuan and Lin, Yutang and Xu, Yuan and Kaufhold, Stephan and Terwilliger, Jack and Meza, Andres and Zhu, Yixin and Rossano, Federico and Wang, Yizhou},
-    journal={arXiv preprint arXiv:2410.17136},
-    year={2024}
+@article{ma2026alphachimp,
+  title={AlphaChimp: Tracking and Behavior Recognition of Chimpanzees},
+  author={Ma, Xiaoxuan and Lin, Yutang and Xu, Yuan and Kaufhold, Stephan and Terwilliger, Jack and Meza, Andres and Zhu, Yixin and Rossano, Federico and Wang, Yizhou},
+  journal={International Journal of Computer Vision (IJCV)},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
