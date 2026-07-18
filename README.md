@@ -78,7 +78,7 @@ pip install pycocotools shapely terminaltables imageio[ffmpeg] lap
         ...
     ```
 
-2. Download our pretrained [checkpoints](https://mega.nz/folder/k2lXxITL#VD5CQv-fBc_9eCRoIaY_-Q) and place them under `work_dirs/alphachimp`. We provide checkpoints with different resolutions.
+2. Download our pretrained [checkpoints](https://drive.google.com/drive/folders/1r4mMmMp32kGXLwem98l63900jjASjAeH?usp=sharing) and place them under `work_dirs/alphachimp`. We provide checkpoints with different resolutions.
 
 
 # Quick Demo :star:
